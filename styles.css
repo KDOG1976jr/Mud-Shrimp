@@ -1,0 +1,48 @@
+body{
+    background-color: lightblue;
+}
+ul {
+    list-style-type: none ;
+    margin: 45;
+    padding: 45;
+    overflow: hidden;
+    background-color: orange;
+}
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 85.3px;
+    text-decoration: none;
+}
+header {
+    font-size: large;
+    color: white;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 85.3px;
+    text-decoration: none;
+
+  }
+  
+@keyframes hovcol {
+  from {background-color: orange;}
+  to {background-color: black;}
+  
+}
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+    animation-name: hovcol;
+    animation-duration: 1.5s;
+  }
+  
