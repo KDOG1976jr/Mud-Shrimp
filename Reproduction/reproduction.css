@@ -11,6 +11,7 @@ ul {
 li {
     float: left;
     border-right: 1px solid black;
+    position: sticky;
 }
 li a {
     display: inline-block;

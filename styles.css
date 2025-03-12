@@ -7,16 +7,18 @@ ul {
     padding: 45;
     overflow: hidden;
     background-color: orange;
+    
 }
 li {
     float: left;
     border-right: 1px solid black;
+    position: sticky;
 }
 li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 85.3px;
+    padding: 14px 80px;
     text-decoration: none;
 }
 header {
@@ -29,7 +31,7 @@ li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 85.3px;
+    padding: 14px 85px;
     text-decoration: none;
 
   }
@@ -46,3 +48,11 @@ li a, .dropbtn {
     animation-duration: 1.5s;
   }
   
+
+.black img{
+    border: 5px solid black;
+    display: block;
+    margin: auto;
+    width: 35%;
+    
+}
