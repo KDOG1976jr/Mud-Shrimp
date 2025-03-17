@@ -44,4 +44,9 @@ li a, .dropbtn {
     animation-name: hovcol;
     animation-duration: 1.5s;
   }
+  img{
+    margin: auto;
+    display: block;
+    width: 50%;
+  }
   

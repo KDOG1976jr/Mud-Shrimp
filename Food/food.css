@@ -45,3 +45,19 @@ li a, .dropbtn {
     animation-duration: 1.5s;
   }
   
+  .text{
+
+    float: left;
+
+    display: flex;
+    justify-content: left;
+  }
+  .text p{
+    border: 5px solid black;
+    
+  }
+
+  .text img{
+    width: 50%;
+    float: right;
+  }
